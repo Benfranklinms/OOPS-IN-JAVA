@@ -1,0 +1,4 @@
+Palindrome : 121
+Sum : 4Palindrome : 12321
+Sum : 9Palindrome : 16461
+Sum : 18Sum : 6
