@@ -12,7 +12,7 @@ class MyThread2 extends Thread{
     public void run(){
         int i = 0;
         while(i < 400){
-            System.out.println("Thread2 is running");
+            System.out.println("Thread2 is running " + Thread.currentThread().getPriority());
             i++;
         }
     }
