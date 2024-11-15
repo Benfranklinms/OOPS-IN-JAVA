@@ -1,3 +1,11 @@
+/* Create a GUI with a Textbox for getting a count N value from
+user and a PRINT button. When clicking on "PRINT" button,
+pass the value of count N to two threads T1 and T2. T1 thread
+should print the string "Thrikkakara" for N times in console
+and T2 thread should print the string "Kochi" for N times in
+console. Show the o/p without synchronization. */
+
+
 import java.util.*;
 import java.util.concurrent.Flow;
 import java.io.*;
