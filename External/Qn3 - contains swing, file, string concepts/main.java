@@ -1,3 +1,12 @@
+/* Read a line of sentence ("Model Engineering College") from a text box when clicking on the a "Read" button and tokenize it with delimiter space. Write each token to the file in the following format.
+
+Sl.No Token
+111 Model
+112 Engineering
+113 College */
+
+
+
 import java.util.*;
 import java.io.*;
 import java.awt.*;
