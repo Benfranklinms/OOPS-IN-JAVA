@@ -1,3 +1,10 @@
+/* Write a program to display a frame with 2 radio buttons, 1 textfield and I button. The first radio button should be named bit 1 and the second should be named bit 0.
+1. If neither one is selected, the text field should display 0.
+2. If both are selected, it should display 3.
+3. If only bit 1 is selected, it displays 2.
+4. If only bit 0 is selected, it displays 1.
+The displayed value should change when a radio button is selected or unselected and the button is pressed. */
+
 import java.util.*;
 import java.io.*;
 import java.awt.*;
