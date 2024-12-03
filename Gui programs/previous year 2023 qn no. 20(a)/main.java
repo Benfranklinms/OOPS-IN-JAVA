@@ -13,7 +13,7 @@ public class main{
 
         JTextField text1 = new JTextField(10);
         JTextField text2 = new JTextField(10);
-        JTextField text3 = new JTextField(10);
+        JTextField text3 = new JTextField(1);
         JTextField text4 = new JTextField(10);
 
         JLabel label1 = new JLabel("First number");
@@ -46,10 +46,16 @@ public class main{
                         text4.setText(String.valueOf(num));
                         break;
                     case "/":
+                        if(num2 != 0){
                         num = num1 / num2;
                         text4.setText(String.valueOf(num));
+                        }
+                        else{
+                            text4.setText("Error");
+                        }
                         break;
-
+                    default:
+                        text4.setText("Error");
                 }
             }
         });
