@@ -1,0 +1,5 @@
+FileInputStream: Used to read bytes from the source file.
+FileOutputStream: Used to write bytes to the destination file.
+The program reads each byte from the source file and writes it to the destination file until it reaches the end of the source file (i.e., -1).
+In case of an error, the exception is caught, and a message is printed.
+Streams are closed in the finally block to ensure they are closed even if an exception occurs.
